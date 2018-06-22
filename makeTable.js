@@ -14,21 +14,6 @@ function getData(endpoint) {
     });
 }
 
-function findIndexOfMatchingId(users, id) {
-    users = users || [];
-    id = id || "";
-    
-    const matchingIndices = [];
-
-    for (let i = 0, l = users.length; i < l; i++) {
-        if (users[i].id === id) {
-            matchingIndices.push(i);
-        }
-    }
-
-    return matchingIndices;
-}
-
 function combineDataSets(data1, data2) {
     data1 = data1 || [];
     data2 = data2 || [];
@@ -45,15 +30,6 @@ function combineDataSets(data1, data2) {
     });
     
     return newDataSet;
-}
-
-function getDataSetsFromTwoEndpoints(endpoint1, endpoint2) {
-    let combinedData = [];
-
-    
-    
-        console.log(combinedData);
-    return combinedData;
 }
 
 function makeHtmlTableString(userData) {
@@ -81,7 +57,6 @@ function makeHtmlFile(data, template) {
 
 module.exports = {
     getData : getData,
-    findIndexofMatchingId : findIndexOfMatchingId,
     combineDataSets : combineDataSets,
     makeHtmlTableString : makeHtmlTableString,
     makeHtmlFile : makeHtmlFile

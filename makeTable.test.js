@@ -1,19 +1,5 @@
 const makeTable = require('./makeTable.js');
 
-describe('findIndexOfMatchingId', () => {
-    test('should return an array', () => {
-        const isArray = Array.isArray(makeTable.findIndexofMatchingId());
-        expect(isArray).toEqual(true);
-    });
-
-    test('should get the correct index of matching user in array', () => {
-        const users = [{id: 1},{id: 2},{id: 3},{username: 'hello', id: 3}];
-        const userIndices = makeTable.findIndexofMatchingId(users, 3);
-        expect(userIndices).toEqual([2,3]);
-    });
-});
-
-
 describe('combineDataSets', () => {
     test('should return an array', () => {
         const isArray = Array.isArray(makeTable.combineDataSets());
