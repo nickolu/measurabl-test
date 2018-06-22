@@ -1,0 +1,20 @@
+{
+  "name": "measurabl-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "start": "node build.js",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "author": "Nick Cunningham",
+  "license": "ISC",
+  "devDependencies": {
+    "get-json": "~1.0.0",
+    "jest": "~20.0.4",
+    "opn": "~5.3.0"
+  }
+}
