@@ -1,0 +1,19 @@
+.u {
+  &-text-center {
+    text-align: center;
+  }
+  &-component-center {
+    width: 80%;
+    margin: 0 auto;
+  }
+  &-component-margin {
+    margin-top: 30px;
+  }
+  &-clearfix {
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+</head>
+
+<body>
+
+<h1 class="measurablTitle  u-component-margin u-component-center u-text-center">This page has a formatted table</h1>
+
+<section class="measurablUserData u-component-center u-component-margin">
+  <h2 class="measurablUserData_title">User Data</h2>
+  <table class="measurablUserData__table">
+    <tr class="measurablUserData__tableRow measurablUserData__tableRow--head">
+      <th class="measurablUserData__tableCell measurablUserData__tableCell--highlighted">User ID</th>
+      <th class="measurablUserData__tableCell">First Name</th>
+      <th class="measurablUserData__tableCell">Last Name</th>
+      <th class="measurablUserData__tableCell">Age</th>
+    </tr>
+    <tr class="measurablUserData__tableRow">
+      <td class="measurablUserData__tableCell measurablUserData__tableCell--highlighted">1</td>
+      <td class="measurablUserData__tableCell">Jacob</td>
+      <td class="measurablUserData__tableCell">Smith</td>
+      <td class="measurablUserData__tableCell">10</td>
+    </tr>
+    <tr class="measurablUserData__tableRow">
+      <td class="measurablUserData__tableCell measurablUserData__tableCell--highlighted">2</td>
+      <td class="measurablUserData__tableCell">Jessica</td>
+      <td class="measurablUserData__tableCell">Jones</td>
+      <td class="measurablUserData__tableCell">28</td>
+    </tr>
+    <tr class="measurablUserData__tableRow measurablUserData__tableRow--last">
+      <td class="measurablUserData__tableCell measurablUserData__tableCell--highlighted">4</td>
+      <td class="measurablUserData__tableCell">Barbara</td>
+      <td class="measurablUserData__tableCell">Brown</td>
+      <td class="measurablUserData__tableCell">50</td>
+    </tr>
+  </table>
+</section>
+
+<section class="measurablAccolades u-component-margin u-component-center">
+  <h2 class="measurablAccolades_title">Accolades</h2>
+  <div class="measurablAccolades__wrapper u-clearfix">
+    <div class="measurablAccolades__badge measurablAccolades__badge--selected">
+      <img src="images/badge1.svg" alt="badge 1" class="measurablAccolades__icon">
+    </div>
+    <div class="measurablAccolades__badge">
+        <img src="images/badge2.svg" alt="badge 2" class="measurablAccolades__icon">
+    </div>
+    <div class="measurablAccolades__badge">
+        <img src="images/badge3.png" alt="badge 3" class="measurablAccolades__icon">
+    </div>
+  </div>
+</section>
+
+<section class="measurablContact u-component-margin u-component-center">
+  <h2 class="measurablContact_title">
+    Contact Us
+  </h2>
+  <div class="measurablContact__form">
+    <label for="firstName" class="measurablContact__label">First Name:</label><input class="measurablContact__input" type="text" name="firstName" placeholder="First Name"><br>
+    <label for="lastName" class="measurablContact__label">Last Name:</label><input class="measurablContact__input" type="text" name="lastName" placeholder="Last Name"><br>
+    <label for="email" class="measurablContact__label">Email:</label><input class="measurablContact__input measurablContact__input--email" type="email" name="email" placeholder="Email"><br>
+    <label for="phone" class="measurablContact__label">Phone:</label><input class="measurablContact__input measurablContact__input--phone" type="tel" name="phone" ><br>
+    <button class="measurablContact__submit">Submit</button>
+  </div>
+</section>
+
+</body>
+
+</html>

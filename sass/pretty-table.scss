@@ -1,0 +1,82 @@
+@import "mixins.scss";
+
+.measurablTitle {
+  @include font-size(3);
+}
+
+.measurablUserData {
+  &__table {
+    width: 80%;
+    border: 2px solid #888888;
+    @include font-size(1.6);
+  }
+  &__tableRow {
+    border-bottom: 3px solid #000000;
+    
+    &--head {
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    &--last {
+      text-transform: uppercase;
+    }
+  }
+  &__tableCell {
+    background-color: #cccccc;
+    padding: 2px 1px;
+    &--highlighted {
+      background-color: yellow;
+    }
+  }
+}
+
+.measurablAccolades {
+  &__wrapper {
+    padding: 12px 20px 4px;
+  }
+  &__badge {
+    border-radius: 4px;
+    height: 250px;
+    width: 25%;
+    float: left;
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid #888888;
+
+    &--selected, &:hover {
+      border-color: green;
+      background-color: #888888;
+    }
+  }
+  &__icon {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.measurablContact {
+  &__form {
+    @include font-size(1.6);
+    position: relative;
+    width: 341px;
+  }
+  &__label {
+    display: inline-block;
+    width: 200px;
+  }
+  &__input {
+    padding: 6px;
+    margin-bottom: 6px;
+    &--error {
+      border: 1px solid red;
+    }
+    &--success {
+      border: 1px solid green;
+    }
+  }
+  &__submit {
+    position: absolute;
+    right: 0;
+    padding: 8px;
+  }
+}

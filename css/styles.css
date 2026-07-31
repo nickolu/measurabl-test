@@ -1,0 +1,87 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 62.5%; }
+
+h2 {
+  font-size: 20px; }
+
+.measurablTitle {
+  font-size: 3em;
+  font-size: 30px; }
+
+.measurablUserData__table {
+  width: 80%;
+  border: 2px solid #888888;
+  font-size: 1.6em;
+  font-size: 16px; }
+
+.measurablUserData__tableRow {
+  border-bottom: 3px solid #000000; }
+  .measurablUserData__tableRow--head {
+    font-weight: 800;
+    text-transform: uppercase; }
+  .measurablUserData__tableRow--last {
+    text-transform: uppercase; }
+
+.measurablUserData__tableCell {
+  background-color: #cccccc;
+  padding: 2px 1px; }
+  .measurablUserData__tableCell--highlighted {
+    background-color: yellow; }
+
+.measurablAccolades__wrapper {
+  padding: 12px 20px 4px; }
+
+.measurablAccolades__badge {
+  border-radius: 4px;
+  height: 250px;
+  width: 25%;
+  float: left;
+  padding: 12px;
+  margin: 12px;
+  border: 1px solid #888888; }
+  .measurablAccolades__badge--selected, .measurablAccolades__badge:hover {
+    border-color: green;
+    background-color: #888888; }
+
+.measurablAccolades__icon {
+  margin: 0 auto;
+  display: block; }
+
+.measurablContact__form {
+  font-size: 1.6em;
+  font-size: 16px;
+  position: relative;
+  width: 341px; }
+
+.measurablContact__label {
+  display: inline-block;
+  width: 200px; }
+
+.measurablContact__input {
+  padding: 6px;
+  margin-bottom: 6px; }
+  .measurablContact__input--error {
+    border: 1px solid red; }
+  .measurablContact__input--success {
+    border: 1px solid green; }
+
+.measurablContact__submit {
+  position: absolute;
+  right: 0;
+  padding: 8px; }
+
+.u-text-center {
+  text-align: center; }
+
+.u-component-center {
+  width: 80%;
+  margin: 0 auto; }
+
+.u-component-margin {
+  margin-top: 30px; }
+
+.u-clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
